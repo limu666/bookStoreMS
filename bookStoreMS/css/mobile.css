@@ -1,0 +1,15 @@
+#login form th{
+    color: black;    
+}
+#login form{
+    left: 25%;
+    margin-top: 10px;
+    background-color: rgb(173, 173, 173,0.4);
+}
+#logo{
+    margin: 0 auto;
+    background-color: green;
+  }
+#logo .logo_txt{
+    margin-left: 25%;
+}

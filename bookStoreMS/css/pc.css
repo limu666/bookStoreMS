@@ -1,0 +1,37 @@
+#login{
+    background: url("../images/bg.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+#logo .logo_img{
+    width: 15%;
+    height: 66px;
+    background-color: pink;
+    float: left;
+    background: url("../images/logo.jpg") no-repeat left;
+    background-size: 180px;
+  }
+/* #login form th{
+    color: white;    
+} */
+#login form{
+    right: 8%;
+    background-color: rgb(173, 173, 173,0.6);
+}
+
+/*
+    iframe自适应
+ height="800px" width="1200px"  */
+iframe{
+    height: 800px;
+    width: 1200px;
+}
+
+/* 底部 */
+#foot{
+    height: 60px;
+    margin-top: 10px;
+    background-color: #a3303a;
+    line-height: 60px;
+    color: white;
+    text-align: center;
+  }

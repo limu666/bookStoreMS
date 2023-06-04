@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>李牧的主界面</title>
+    <!-- /* Author：李牧 sno:224720054*/ -->
+    <link rel="stylesheet" href="css/index.css?v=1.5"/>
+    <script src="js/index.js?v=1.5"></script>
+    <script src="js/jquery-1.12.4.js"></script>
+</head>
+<body>
+    <!-- top顶部 -->
+    <div id="top">Author：李牧&nbsp;&nbsp;|&nbsp;&nbsp;sno:224720054&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="float:right;padding-right: 10px;">欢迎您：管理员<a class="none" href="php/quit.php">退出</a></span></div>
+    <!-- /* Author：李牧 sno:224720054*/ -->
+    <div class="static head">-------图书商城管理-------</div>
+    <div id="mid"> 
+        <div class="static nav">
+            <ul>
+                <li><button onclick="btn()">全部表单</button></li>
+                <div class="set_ht">
+                    <div class="all_infos">
+                        <!-- /* Author：李牧 sno:224720054*/ -->
+                        <a href="php/infos/all_books.php?bm1=0" target="test">全部图书</a>
+                        <a href="php/infos/category.php?bm1=0" target="test">图书类别</a>
+                        <a href="php/infos/orderitem.php?bm1=0" target="test">订单列表</a>
+                        <a href="php/infos/order.php?bm1=0" target="test">所有订单</a>
+                        <a href="php/infos/user.php?bm1=0" target="test">全部用户</a>
+                    </div>
+                </div>
+                <li><a href="php/infos/all_books.php?bm1=1" name = "all_books" onclick="on()" target="test">图书管理</a></li>
+                <li><a href="php/infos/category.php?bm1=1" onclick="on()" target="test">图书类别管理</a></li>
+                <li><a href="php/infos/orderitem.php?bm1=1" onclick="on()" target="test">订单列表管理</a></li>
+                <li><a href="php/infos/order.php?bm1=1"  onclick="on()" target="test">所有订单管理</a></li>
+                <li><a href="php/infos/user.php?bm1=1"  onclick="on()" target="test">用户管理</a></li>
+                
+            </ul>
+            
+            
+        </div> 
+        <div class="if_pre">
+            <iframe src="" name="test" onload="resizeIframe(this)"
+                    id="test" scrolling="yes"  frameborder="0">
+                
+            </iframe>
+        </div>
+    </div>
+    
+
+    
+    <!-- /* Author：李牧 sno:224720054*/ -->  
+    <!-- <div id="top">Author：李牧&nbsp;&nbsp;|&nbsp;&nbsp;sno:224720054</div>  -->
+</body>
+</html>

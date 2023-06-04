@@ -1,0 +1,55 @@
+<!-- /* Author：李牧 */ -->
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    width: 100%;
+    height: 21px;
+    border-spacing: 0;
+    border: 1px solid black;
+}
+td{
+    border:1px solid black;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.classification td{
+    height: 24px;
+}
+.static td{
+   width: 10%;
+}
+.static td p{
+    text-align: center;
+ }
+ .col_set{
+    background-color: rgb(0,157,220);
+    color: white;
+ }
+ input{
+    outline: none;
+ }
+ .col{
+    background-color: white;
+ }
+ .col_set_id{
+    background-color: rgb(221,245,225);
+ }
+ a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+ }
+ a:hover{
+    color: rgb(238, 255, 0);
+    border-bottom: 1px solid yellow;
+ }

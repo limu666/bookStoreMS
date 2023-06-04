@@ -1,0 +1,24 @@
+#logo .logo_img{
+    width: 15%;
+    height: 66px;
+    background-color: pink;
+    float: left;
+    background: url("../images/logo.jpg") no-repeat left;
+    background-size: 180px;
+  }
+/* 底部 */
+/* #foot{
+    height: 60px;
+    background-color: #a3303a;
+    color: white;
+    line-height: 60px;
+    color: white;
+  } */
+#login form{
+    left: 25%;
+    margin-top: 10px;
+    background-color: rgb(173, 173, 173,0.6);
+}
+#logo .logo_txt{
+  margin-left: 25%;
+}

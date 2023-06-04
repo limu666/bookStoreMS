@@ -1,0 +1,122 @@
+/* Author：李牧 */
+/* <!-- 
+        配色： 樱花粉： RGB 255 210 214    #FFD2D6
+                月白蓝： RGB 200 224 242    #C8E0F2
+
+
+                325da7
+     --> */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    background:url("bg.png") no-repeat;
+    background-size: 100%;
+    } */
+#top{
+    background-color: #a3303a;
+    color: white;
+    height: 20px;
+    font-size: 0.1rem;
+    line-height: 20px;
+    text-align: center;
+}
+.static, button{  
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    /* padding-top: 15px; */
+    text-align: center;
+}
+.static{
+    background-color: #C8E0F2;
+}
+button{
+    border:0;
+    width: 100%;
+    background-color: #C8E0F2;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+a,button{
+    color: black;
+    display: block;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px solid gray;
+    padding:0 20px;
+}
+
+.head{
+    padding: 20px;
+    background-color: #325da7;
+    color: #dce778;
+    font-family: "楷体";
+    font-size: 0.5rem;
+}
+.none{
+    height: 20px;
+    line-height: 20px;
+    background-color: none;
+    /* float: left; */
+    border: none;
+    color: white;
+    padding-right: 10%;
+}
+.none:hover{
+    background-color: #a3303a;
+    color: yellow;
+}
+ul{
+    width: 100%;
+}
+li{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px solid gray;
+}
+a:hover,button:hover{
+    color: white;
+    background-color: #587ab6;
+}
+/* a:visited,button:visited{
+    color: white;
+    background-color: #587ab6;
+} */
+.all_infos{  
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display:none;
+}            
+/* .set_ht{
+    height: 50px;
+}  */
+#mid{
+    width: 100%;
+}
+.if_pre{
+    float: left;
+    width: 68%;
+    margin:5px 10px;
+    /* border: 2px dashed rgb(58, 58, 58); */
+}
+
+.nav{
+    width: 20%;
+    float: left;
+}
+
+/* .if_pre iframe{
+    width: 1920px;
+    top: 0;
+    left: 0;
+    transform-origin: top left;
+    transform: scale(0.8,1)
+} */
+
+
